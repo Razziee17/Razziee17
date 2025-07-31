@@ -1,0 +1,29 @@
+.contact-section {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #ffffff;
+  color: #1f2937;
+  background: linear-gradient(to right, #1f2937, #111827);
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-description {
+  margin-bottom: 1.5rem;
+  font-size: 1.125rem;
+  color: #e2e2e2;
+}
+
+.btn-filled {
+  padding: 0.75rem 2rem;
+  background-color: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.btn-filled:hover {
+  background-color: #1d4ed8;
+}

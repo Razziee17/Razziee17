@@ -1,0 +1,28 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(to right, #1f2937, #111827);
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.navbar-links .nav-link {
+  margin-left: 1rem;
+  color: rgb(74, 91, 169);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+ 
+}
+
+.navbar-links .nav-link:hover {
+  color: #9ca3af;
+}
