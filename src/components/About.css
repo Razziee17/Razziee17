@@ -1,5 +1,5 @@
 .about-section {
-  padding: 4rem 2rem;
+  padding: 13rem 2rem;
   background-color: #ffffff;
   text-align: center;
   color: #111827;
@@ -13,7 +13,7 @@
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
   font-weight: bold;
-  color: #8da8e3;
+  color: #447fff;
 }
 
 .section-description {
@@ -21,4 +21,13 @@
   margin: 0 auto;
   color: #ffffff;
   font-size: 1.125rem;
+}
+
+.about-card {
+  background: rgb(31, 51, 83);
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 24px;
+  max-width: 600px;
+  margin: 0 auto;
 }

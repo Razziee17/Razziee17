@@ -1,5 +1,8 @@
 .contact-section {
-  padding: 4rem 2rem;
+  padding: 15rem 2rem;
+  padding-top: 8rem;
+  border: hsl(221, 42%, 16%);
+  border-style: dashed;
   text-align: center;
   background-color: #ffffff;
   color: #1f2937;
@@ -26,4 +29,13 @@
 
 .btn-filled:hover {
   background-color: #1d4ed8;
+}
+
+.contact-card {
+  background: rgb(31, 51, 83);
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(204, 207, 211, 0.08);
+  padding: 24px;
+  max-width: 400px;
+  margin: 0 auto;
 }

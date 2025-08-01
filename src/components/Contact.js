@@ -4,11 +4,18 @@ import './Contact.css';
 export default function Contact() {
   return (
     <section id="contact" className="contact-section">
-      <h2 className="section-title">Contact</h2>
-      <p className="contact-description">Feel free to reach out via email!</p>
-      <a href="mailto:you@example.com" className="btn-filled">
-        Send Email
-      </a>
+      <div className="contact-container"> 
+        <h2 className="section-title">Contact</h2>
+        <div className="contact-card">
+          <p className="contact-description">
+            Feel free to reach me out!!
+            <br />
+            Email: ruha.eugenio.au@phinmaed.com
+            <br />
+            No.: 0936-953-0814
+          </p>
+        </div>
+      </div> 
     </section>
   );
 }

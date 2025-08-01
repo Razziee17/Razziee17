@@ -4,7 +4,8 @@ import './About.css';
 export default function About() {
   return (
     <section id="about" className="about-section">
-      <h2 className="section-title">About Me</h2>
+      <div className="about-card">
+        <h2 className="section-title">About Me</h2>
         <p className="section-description">
             My name is Ruzzel, and I am a BSIT student of PHINMA AU.
             I love coding and creating new projects.
@@ -16,6 +17,7 @@ export default function About() {
             Have a great day!
             Thank you!!
         </p>
+      </div>
     </section>
   );
 }

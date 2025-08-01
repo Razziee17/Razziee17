@@ -1,15 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
 .hero-section {
   text-align: center;
   padding: 6rem 2rem;
   background: linear-gradient(to bottom, #1f2937, #111827);
   color: white;
   height: 100%;
+ 
 }
 
 .hero-title {
   font-size: 3rem;
+  color: #0051ff;
   margin: 1rem 0;
   font-weight: bold;
+  font-style: italic;
+  font-family: 'Pacifico', cursive, 'Brush Script MT', sans-serif;
 }
 
 .hero-description {
@@ -54,7 +60,7 @@
   object-fit: cover;
   margin-top: 2.5rem;
   border: 4px solid white;
-  box-shadow: 0 0 0 4px #2563eb;
+  box-shadow: 0 0 0 2px #2563eb;
 }
 
 .hero-social {
